@@ -6,21 +6,53 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    font-weight: normal;
 }
 
 body{
     background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 100dvh;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
 
+nav{
+    margin: 5px 15px;
+}
+nav img{
+    width: 10dvh;
+}
+
+nav img:hover{
+    background-color: aqua;
+}
+
+#cardboard{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    min-height: 100dvh;
+    align-items:flex-end;
 }
 
-main{
-    background-color: aquamarine;
+.card{
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 5px;
+    width: 160px;
     height: 250px;
-    width: 250px;
-    padding: 10px;
+    border-radius: 15px;
+}
+
+.card:hover{
+    width: 200px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.card:not(:hover ){
+    transition: 0.3s;
 }
