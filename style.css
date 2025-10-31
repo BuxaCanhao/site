@@ -47,7 +47,7 @@ nav img:hover{
 }
 
 .card p{
-    font-size: clamp(1em, 1rem + 1.5%, 2em);
+    font-size: clamp(1.2rem, 0.5rem + 1.5vw, 1.25rem);
 }
 
 .card{
